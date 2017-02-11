@@ -54,8 +54,7 @@ function pickQuote(){
 	var div1 = document.getElementById('get-quote');
 	div1.innerHTML = getQuote;
 	var div2 = "img/nick-pics/" + getPic;
-	var div3 = document.getElementById('get-pic');
-	div3.prepend('<img id="" src="'+div2+'" />');
+	$('#get-pic').prepend('<img id="" src="'+div2+'" />');
 	
 };
 pickQuote();
