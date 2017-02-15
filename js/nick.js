@@ -38,19 +38,20 @@ var getPics =['IMG_0030-min.jpg', 'IMG_0244-min.jpg', 'IMG_0383-min.jpg', 'IMG_0
 				'IMG_0486-min.jpg', 'IMG_0808-min.jpg', 'IMG_1048-min.jpg', 'IMG_1106-min.jpg',
 				'IMG_1257-min.jpg', 'IMG_1360-min.jpg', 'IMG_1401-min.jpg', 'IMG_1422-min.jpg', 
 				'IMG_1422-min.jpg', 'IMG_1621-min.jpg', 'IMG_1742-min.jpg', 'IMG_1835-min.jpg',
-				'IMG_1895-min.jpg', 'IMG_2092-min.jpg', 'IMG_9013-min.jpg', 'KTAZ5912-min.jpg'];
+				'IMG_1895-min.jpg', 'IMG_2092-min.jpg', 'IMG_9013-min.jpg', 'KTAZ5912-min.jpg',
+				'nick1.jpg', 'nick2.jpg', 'nick3.jpg', 'nick4.jpg'];
 
 function pickQuote(){
 	if(document.location.pathname.indexOf("unmotivated") > -1){
-		var getQuote = getMotivation[Math.floor(Math.random() * 4)];
+		var getQuote = getMotivation[Math.floor(Math.random()*getMotivation.length)];
 	}
 	if(document.location.pathname.indexOf("stressed") > -1){
-		var getQuote = getAngry[Math.floor(Math.random() * 4)];
+		var getQuote = getAngry[Math.floor(Math.random()*getAngry.length)];
 	}
 	if(document.location.pathname.indexOf("missing") > -1){
-		var getQuote = getHappy[Math.floor(Math.random() * 4)];
+		var getQuote = getHappy[Math.floor(Math.random()*getHappy.length)];
 	}
-	var getPic = getPics[Math.floor(Math.random() * 4)];
+	var getPic = getPics[Math.floor(Math.random()*getPics.length)];
 	var div1 = document.getElementById('get-quote');
 	div1.innerHTML = getQuote;
 	var div2 = "img/nick-pics/" + getPic;
