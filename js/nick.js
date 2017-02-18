@@ -22,8 +22,8 @@ var getHappy = ['"Happiness is the art of never holding in your mind the memory 
 				'"Happy people plan actions, they do not plan results." - Dennis Waitley',
 				'"The only joy in the world is to begin." - Cesare Pavese',
 				'"Happiness is acceptance." - Unknown',
-				'If you cannot get someone out of your head, maybe they are supposed to be there.',
-				'In French, you do not really say "I miss you", you say "Tu me manques" which means "You are missing from me"'];
+				'"If you cannot get someone out of your head, maybe they are supposed to be there."',
+				'"In French, you do not really say "I miss you", you say "Tu me manques" which means "You are missing from me""'];
   
 var getAngry = ['"No matter how hard the past, you can always begin again." Buddha',
 				'"Experience is simply the name we give our mistakes." - Oscar Wilde',
@@ -39,7 +39,8 @@ var getPics =['IMG_0030-min.jpg', 'IMG_0244-min.jpg', 'IMG_0383-min.jpg', 'IMG_0
 				'IMG_1257-min.jpg', 'IMG_1360-min.jpg', 'IMG_1401-min.jpg', 'IMG_1422-min.jpg', 
 				'IMG_1422-min.jpg', 'IMG_1621-min.jpg', 'IMG_1742-min.jpg', 'IMG_1835-min.jpg',
 				'IMG_1895-min.jpg', 'IMG_2092-min.jpg', 'IMG_9013-min.jpg', 'KTAZ5912-min.jpg',
-				'nick1.jpg', 'nick2.jpg', 'nick3.jpg', 'nick4.jpg'];
+				'nick1.jpg', 'nick2.jpg', 'nick3.jpg', 'nick4.jpg', 'IMG_0055-min.jpg', 'IMG_0059-min.jpg',
+				'IMG_0067-min.jpg', 'IMG_0076-min.jpg', 'IMG_0174-min.jpg', 'IMG_0436-min.jpg'];
 
 function pickQuote(){
 	if(document.location.pathname.indexOf("unmotivated") > -1){
